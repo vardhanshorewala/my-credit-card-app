@@ -1,0 +1,33 @@
+# Ignore operating system files
+.DS_Store
+
+# Ignore npm package lock file
+package-lock.json
+
+# Ignore Node.js modules directory
+node_modules/
+
+# Ignore build output directories (if any)
+build/
+dist/
+out/
+
+# Ignore editor-specific files and directories
+.vscode/
+.idea/
+
+# Ignore environment-specific configuration files
+.env
+.env.local
+.env.*.local
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore user-specific files
+*.iml
+*.suo
+*.swp
+
+# Ignore any other generated or irrelevant files
